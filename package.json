@@ -14,5 +14,9 @@
     "Cycle"
   ],
   "author": "Jose Collas",
-  "license": "ISC"
+  "license": "ISC",
+  "repository" :
+    { "type" : "git"
+    , "url" : "git@github.com:JoseHerminioCollas/cycle-tour.git"
+    }
 }
