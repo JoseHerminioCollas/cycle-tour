@@ -1,0 +1,31 @@
+@import "variables";
+
+@import "footer";
+
+html {
+  font-family: Arial,sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: $brand-primary;
+}
+
+a {
+  color: $brand-primary;
+}
+
+@media screen and (min-width:$break-point) {
+  p.crop {
+    width: 90%;
+  }
+  img.logo {
+    transition: opacity 0.5s;
+  }
+  img.logo:hover {
+    opacity: 0.4;
+  }
+}
